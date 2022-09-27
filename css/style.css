@@ -16,6 +16,10 @@ body {
     background-color: var(--black);
 }
 
+.my-text-black {
+    color: var(--black);
+}
+
 .my-bg-green {
     background-color: var(--green);
 }
@@ -28,18 +32,66 @@ body {
     background-color: var(--dark-grey);
 }
 
-.font-size-h1 {
-    font-size: 4.5rem;
+/* ! MAIN */
+/* ! Sezione Hero */
+#hero {
+    padding-top: 10rem;
+    padding-bottom: 4rem;
 }
 
-/* ! MAIN */
-#hero {
-    padding-top: 100px;
+.icon, .icon-dark {
+    display: flex;
+    align-items: center;
+}
+
+.fa-star {
+    margin: 0 30px;
+}
+
+.icon::after {
+    content: '';
+    display: block;
+    width: 100px;
+    border: 2px solid var(--white);
+    border-radius: 3px;
+}
+
+.icon::before {
+    content: '';
+    display: block;
+    width: 100px;
+    border: 2px solid var(--white);
+    border-radius: 3px;
+}
+
+.icon-dark::after {
+    content: '';
+    display: block;
+    width: 100px;
+    border: 2px solid var(--black);
+    border-radius: 3px;
+}
+
+.icon-dark::before {
+    content: '';
+    display: block;
+    width: 100px;
+    border: 2px solid var(--black);
+    border-radius: 3px;
 }
 
 .avatar {
-    width: 35%;
+    width: 45%;
     max-width: 100%;
+}
+
+/* ! Sezione Portfolio */
+#portfolio img {
+    width: 100%;
+}
+
+.round-img {
+    border-radius: 10px;
 }
 
 /* ! HEADER */
