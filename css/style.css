@@ -1,0 +1,52 @@
+:root {
+    --black: rgba(44, 62, 80, 1);
+    --green: rgba(26, 188, 156, 1);
+    --white: rgba(255, 255, 255, 1);
+    --grey: rgba(58, 84, 109, 1);
+    --dark-grey: rgba(44, 62, 80, 1);
+}
+
+/* ! COMMON */
+body {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.my-bg-black {
+    background-color: var(--black);
+}
+
+.my-bg-green {
+    background-color: var(--green);
+}
+
+.my-bg-grey {
+    background-color: var(--grey);
+}
+
+.my-bg-dark-grey {
+    background-color: var(--dark-grey);
+}
+
+.font-size-h1 {
+    font-size: 4.5rem;
+}
+
+/* ! MAIN */
+#hero {
+    padding-top: 100px;
+}
+
+.avatar {
+    width: 35%;
+    max-width: 100%;
+}
+
+/* ! HEADER */
+header {
+    background-color: var(--black);
+    position: fixed;
+    height: 90px;
+    top: 0;
+    width: 100%;
+}
