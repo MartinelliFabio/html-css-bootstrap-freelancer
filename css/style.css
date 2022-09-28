@@ -7,6 +7,10 @@
 }
 
 /* ! COMMON */
+html {
+    scroll-padding-top: 80px;
+}
+
 body {
     background-color: var(--white);
     color: var(--black);
@@ -37,11 +41,37 @@ body {
     background-color: var(--dark-grey);
 }
 
+/* ! HEADER */
+header {
+    background-color: var(--black);
+    position: fixed;
+    padding: 10px;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+.link-nav {
+    color: var(--white)!important;
+}
+
+.link-nav:hover {
+    color: var(--green)!important;
+}
+
 /* ! MAIN */
 /* ! Sezione Hero */
 #hero {
     padding-top: 10rem;
     padding-bottom: 4rem;
+}
+
+#hero h1 {
+    font-size: 5vw;
+}
+
+#hero h4 {
+    
 }
 
 .layover-container::after {
@@ -78,7 +108,7 @@ body {
 .icon::after {
     content: '';
     display: block;
-    width: 50px;
+    width: 5vw;
     border: 2px solid var(--white);
     border-radius: 3px;
 }
@@ -86,7 +116,7 @@ body {
 .icon::before {
     content: '';
     display: block;
-    width: 50px;
+    width: 5vw;
     border: 2px solid var(--white);
     border-radius: 3px;
 }
@@ -94,7 +124,7 @@ body {
 .icon-dark::after {
     content: '';
     display: block;
-    width: 50px;
+    width: 5vw;
     border: 2px solid var(--black);
     border-radius: 3px;
 }
@@ -102,22 +132,17 @@ body {
 .icon-dark::before {
     content: '';
     display: block;
-    width: 50px;
+    width: 5vw;
     border: 2px solid var(--black);
     border-radius: 3px;
 }
 
 .avatar {
-    width: 45%;
+    width: 38%;
     max-width: 100%;
 }
 
 /* ! Sezione Portfolio */
-#portfolio {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
 #portfolio img {
     width: 100%;
 }
@@ -133,12 +158,37 @@ body {
     border-radius: 0;
 }
 
-/* ! HEADER */
-header {
-    background-color: var(--black);
-    position: fixed;
-    padding: 10px;
-    top: 0;
-    width: 100%;
-    z-index: 99999;
+#contact label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* ! Sezione Footer Top */
+#footer-top p {
+    font-weight: 500;
+}
+
+#footer-top i {
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.link-boot {
+    text-decoration: none;
+    color: var(--green);
+}
+
+.link-boot:hover {
+    color: var(--green);
+    text-decoration: underline;
+}
+
+/* ! Sezione Footer Bottom */
+#footer-bottom {
+    font-weight: 500;
+}
+
+#footer-bottom p {
+    margin-top: 1rem;
 }

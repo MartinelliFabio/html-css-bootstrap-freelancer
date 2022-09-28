@@ -23,13 +23,13 @@
               <div class="collapse navbar-collapse" id="boot-navbar">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
                   <li class="nav-item">
-                    <a class="nav-link text-white" aria-current="page" href="#portfolio">Portfolio</a>
+                    <a class="nav-link link-nav" aria-current="page" href="#portfolio">Portfolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#about">About</a>
+                    <a class="nav-link link-nav" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#contact">Contact</a>
+                    <a class="nav-link link-nav" href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -50,21 +50,21 @@
                         <div class="icon justify-content-center">
                             <i class="fa-solid fa-star text-white fs-3"></i>
                         </div>
-                        <h4 class="text-white text-uppercase pt-4">Graphic artist - Web Designer - Illustrator</h4>
+                        <h5 class="text-white text-uppercase pt-4">Graphic artist - Web Designer - Illustrator</h5>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Sezione Portfolio -->
-        <section id="portfolio" class="text-center">
+        <section id="portfolio" class="text-center pt-5 pb-5">
             <div class="container-md">
                 <h2 class="text-uppercase pb-2">Portfolio</h2>
                 <div class="icon-dark justify-content-center">
                     <i class="fa-solid fa-star my-text-black fs-3"></i>
                 </div>
                 <div class="row pt-4 g-4">
-                    <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="col-sm-12 col-md-6 md col-lg-4">
                         <div class="layover-container position-relative overflow-hidden round-img">
                             <img src="img/cabin.png" alt="Cabina">
                         </div>
@@ -99,7 +99,7 @@
         </section>
 
         <!-- Sezione About -->
-        <section id="about" class="my-bg-green text-center text-white pt-4 pb-4">
+        <section id="about" class="my-bg-green text-center text-white pt-5 pb-5">
             <div class="container-md w-50">
                 <h3 class="text-uppercase">About</h3>
                 <div class="icon justify-content-center pb-3">
@@ -118,7 +118,7 @@
         </section>
 
         <!-- Sezione Contatti -->
-        <section id="contact" class=" pt-4 pb-4">
+        <section id="contact" class=" pt-5 pb-5">
             <div class="container-md">
                 <h3 class="text-uppercase text-center">Contact me</h3>
                 <div class="icon-dark justify-content-center">
@@ -126,27 +126,26 @@
                 </div>
                 <div class="row justify-content-center pt-4">
                     <div class="col-8">
-                        <div class="form-floating mb-3">
-                            <input class="form-control my-border-form" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                            <label for="name">Name</label>
+                        <div class="mb-3">
+                            <label for="">Name</label>
+                            <input class="form-control my-border-form" id="name" type="text" data-sb-validations="required" />
                             <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                         </div>
-
-                        <div class="form-floating mb-3">
-                            <input class="form-control my-border-form" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                            <label for="name">Email Adress</label>
+                        <div class="mb-3">
+                            <label for="">Email Address</label>
+                            <input class="form-control my-border-form" id="email" type="text" data-sb-validations="required" />
                             <div class="invalid-feedback" data-sb-feedback="name:required">An email is required.</div>
                         </div>
 
-                        <div class="form-floating mb-3">
-                            <input class="form-control my-border-form" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                            <label for="name">Phone Number</label>
+                        <div class="mb-3">
+                            <label for="">Phone Number</label>
+                            <input class="form-control my-border-form" id="phone" type="text" data-sb-validations="required" />
                             <div class="invalid-feedback" data-sb-feedback="name:required">A phone number is required.</div>
                         </div>
 
-                        <div class="form-floating mb-3">
-                            <textarea class="form-control my-border-form" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                            <label for="message">Message</label>
+                        <div class="mb-3">
+                            <label for="">Message</label>
+                            <textarea class="form-control my-border-form" id="message" type="text" style="height: 10rem" data-sb-validations="required"></textarea>
                             <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                         </div>
                         <div><button type="button" class="btn btn-success my-btn-green">Send</button></div>
@@ -156,17 +155,34 @@
         </section>
 
     </main>
+
     <footer>
 
-        <div id="footer-top" class="my-bg-grey">
+        <div id="footer-top" class="my-bg-grey text-white text-center pt-5 pb-5">
             <div class="container-md">
-                footer top
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 mb-5 mb-lg-0">
+                        <h5 class="text-uppercase">Location</h5>
+                        <p class="mb-0">2215 John Daniel Drive Clarck, MO 65243</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mb-5 mb-lg-0">
+                        <h5 class="text-uppercase">Around the web</h5>
+                            <a class="btn btn-outline-light rounded-circle" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light rounded-circle ms-1" href="#!"><i class="fab fa-fw fa-google-plus-g"></i></a>
+                            <a class="btn btn-outline-light rounded-circle mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                            <a class="btn btn-outline-light rounded-circle" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <h5 class="text-uppercase">About Freelancer</h5>
+                        <p class="mb-0">Freelace is a free to use, open source Bootstrap theme created by <a href="#" class="link-boot">Strart Bootstrap</a>.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div id="footer-bottom" class="my-bg-dark-grey">
+        <div id="footer-bottom" class="my-bg-dark-grey pt-4 pb-4 text-white text-center">
             <div class="container-md">
-                footer bottom
+                <p>Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</p>
             </div>
         </div>
 
