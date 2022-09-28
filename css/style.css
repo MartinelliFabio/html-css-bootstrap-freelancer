@@ -24,6 +24,11 @@ body {
     background-color: var(--green);
 }
 
+.my-btn-green {
+    background-color: var(--green);
+    border-color: var(--green);
+}
+
 .my-bg-grey {
     background-color: var(--grey);
 }
@@ -121,6 +126,12 @@ body {
     border-radius: 10px;
 }
 
+/* ! Sezione Contatti */
+.my-border-form {
+    border: transparent;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+}
 
 /* ! HEADER */
 header {
