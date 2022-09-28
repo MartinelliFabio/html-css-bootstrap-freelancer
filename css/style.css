@@ -67,11 +67,11 @@ header {
 }
 
 #hero h1 {
-    font-size: 5vw;
+    font-size: 3em;
 }
 
 #hero h4 {
-    
+    font-size: 1.2em;
 }
 
 .layover-container::after {
@@ -138,7 +138,7 @@ header {
 }
 
 .avatar {
-    width: 38%;
+    width: 55%;
     max-width: 100%;
 }
 
